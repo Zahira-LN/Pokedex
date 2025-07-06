@@ -1,0 +1,14 @@
+.pokedex_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.search_wrapper {
+  display: flex;
+  margin: 0 auto;
+}
+.search_wrapper input {
+  padding: 1rem;
+  border: 0.1px solid #ccc;
+  width: 500px;
+}

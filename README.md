@@ -1,25 +1,12 @@
-# 🧿 Pokedex App
+# React + Vite
 
-A modern Pokédex built with **React**, **Tailwind CSS**, **React Router**, and **PokeAPI**. It features **pagination** and **dynamic routing** to explore detailed Pokémon data interactively.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- ✅ Display list of Pokémons with **pagination**
-- 🔍 Click on a Pokémon to view its **detailed info**
-- ⚡ Fast & responsive UI with **Tailwind CSS**
-- 🌐 Dynamic Routing using `react-router-dom`
-- 🔁 API integration from [PokeAPI](https://pokeapi.co/)
-- 📱 Fully responsive for mobile & desktop
+## Expanding the ESLint configuration
 
----
-
-## 🔧 Tech Stack
-
-- [React](https://reactjs.org/) – Frontend framework
-- [Tailwind CSS](https://tailwindcss.com/) – Styling
-- [React Router DOM](https://reactrouter.com/) – Routing
-- [PokeAPI](https://pokeapi.co/) – Data source
-
----
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
